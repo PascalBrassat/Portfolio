@@ -3,34 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Pascal Brassat</title>
+    <title>About Pascal</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo-brand-container">
+                    <img src="images/logo.png" alt="Logo" class="logo">
+                    <h1 class="brand">Pascal Brassat - Portfolio</h1>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-
-    <main>
-        <section class="about-me">
-            <h1>About Me</h1>
-            <img src="assets/images/yourphoto.jpg" alt="Pascal Brassat" class="profile-photo">
-            <p>Hello! I'm Pascal Brassat, a software engineering student deeply passionate about building and exploring new technologies. Currently studying at Oakland Community College, I'm on track to graduate with an Associate's Degree in May 2024. While I work as a Server/Bartender at Buffalo Wild Wings, I engage in development work for a game server in my free time.</p>
-            <p>Originally from Germany and now residing in the USA, I am fluent in both English and German. This bicultural background has instilled in me a love for travel, further enriching my personal and professional perspective.</p>
-            <p>When not immersed in technology, I enjoy fishing, playing video games, and traveling—often to Florida to assist with my family's rental properties. These hobbies, alongside my professional endeavors, reflect my diverse range of interests and dedication to personal growth.</p>
-        </section>
-    </main>
-
+    
+    </header>    
+    <section id="about" class="content-section">
+        <h1>About Me</h1>
+        <p>Detail-oriented Software Engineering student, set to graduate with an Associate of Applied Science in May of 2024, specializing in front-end development. I have a proven track record in customer service and team leadership, and I am proficient in HTML, CSS, and JavaScript. Dedicated to leveraging these skills, I aim to improve user interfaces and enhance user experiences. I possess a strong foundation in software design principles and patterns, making me well-equipped to collaborate with cross-functional teams to develop innovative solutions that meet evolving user needs. Throughout my academic journey, I have refined my analytical and critical thinking skills, enabling me to effectively troubleshoot and resolve complex technical issues. Eager to contribute to a dynamic organization, I am passionate about creating intuitive and engaging user experiences and developing cutting-edge software solutions that make a meaningful impact.</p>
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Buffalo Wild Wings:</strong> Server, Bartender, Trainer (01/2021 - Present)</li>
+            <li><strong>Tales of Imperia:</strong> Front-End Development, Community Manager (10/2020 - 12/2023)</li>
+            <li><strong>EcoCityCraft LLC:</strong> Community Support Agent (10/2019 - 08/2020)</li>
+            <li><strong>McDonald's:</strong> Shift Manager (09/2015 - 03/2020)</li>
+        </ul>
+        <h2>Education</h2>
+        <p>Oakland Community College, Auburn Hills, Michigan<br>
+        Associate of Applied Science (A.A.S) Computer Information Systems, Software Engineering Option (01/2022 - 05/2024)</p>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Programming Languages: Java, JavaScript, PHP, Kotlin, C++</li>
+            <li>Web Development: Servlets, HTML5, CSS, MySQL</li>
+            <li>Tools: Google Workspace, Microsoft Office Suite, IDEs: Intellij, Netbeans, Android Studio</li>
+        </ul>
+    </section>
     <footer>
-        <p>&copy; 2024 Pascal Brassat. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Pascal Brassat</p>
+        </div>
     </footer>
 </body>
 </html>

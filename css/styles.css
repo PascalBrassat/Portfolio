@@ -1,3 +1,4 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
@@ -232,6 +233,7 @@ footer {
     background-color: #ff3b3b;
 }
 
+/* Responsive Design -- Still in Testing Phase.*/
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;

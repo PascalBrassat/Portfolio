@@ -1,14 +1,23 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-body {
-    font-family: 'Roboto', sans-serif;
+/* Ensure the body and html take up the full height */
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #f4f4f4;
 }
 
+/* Flexbox settings for the body */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+/* Main content area should expand to fill available space */
+.content-section {
+    flex: 1;
+}
+
+/* Header styling */
 header {
     background-color: #444;
     color: #fff;
@@ -16,8 +25,21 @@ header {
     top: 0;
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 100%;
 }
 
+/* Footer styling */
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+    flex-shrink: 0;
+}
+
+/* Navbar styling */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -123,16 +145,6 @@ header {
     background-color: #ff3b3b;
 }
 
-footer {
-    background-color: #444;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
 .box {
     background-color: #fff;
     padding: 2rem;
@@ -233,7 +245,7 @@ footer {
     background-color: #ff3b3b;
 }
 
-/* Responsive Design -- Still in Testing Phase.*/
+/* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;

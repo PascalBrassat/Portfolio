@@ -89,6 +89,22 @@ header {
     text-align: center;
 }
 
+.hero-content .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.hero-content .social-icon {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.hero-content .social-icon img {
+    width: 24px;
+    height: 24px;
+}
+
 .btn {
     background-color: #ff6b6b;
     color: #fff;
@@ -117,18 +133,13 @@ footer {
     width: 100%;
 }
 
-.social-links {
-    margin-top: 1.5rem;
-}
-
-.social-icon {
-    display: inline-block;
-    margin-right: 1rem;
-}
-
-.social-icon img {
-    width: 24px;
-    height: 24px;
+.box {
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
 .project-grid {
